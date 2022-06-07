@@ -1,0 +1,82 @@
+1. Biggest Number
+Description:
+Create a function that takes one positive three digit integer and rearranges its digits to get the maximum possible number. Assume that the argument is an integer.
+
+Returm null if the argument is invalid.
+
+maxRedigit(123) --> 321
+maxRedigit(231) --> 321
+maxRedigit(321) --> 321
+
+maxRedigit(-1)  --> null 
+maxRedigit(0)   --> null
+maxRedigit(99)  --> null
+maxRedigit(1000) --> null
+
+
+
+2. Map Array Data
+Given an array/list [] of integers , Construct a product array Of same size Such That prod[i] is equal to The Product of all the elements of Arr[] except Arr[i].
+
+productArray([12,20])           => [20,12]
+productArray([12,20])           => [20,12]
+productArray([3,27,4,2])        => [216,24,162,324]
+productArray([13,10,5,2,9])     => [900,1170,2340,5850,1300]
+productArray([16,17,4,3,5,2])   => [2040,1920,8160,10880,6528,16320]
+
+
+
+3. Alternate Case
+Alternate each case of each of string given 
+
+alternateCase("abc")            => "ABC"
+alternateCase("ABC")            => "abc"
+alternateCase("Hello World")    => "hELLO wORLD"
+
+
+
+4. Multiple 3 and 5
+Create solution function that accept 1 parameter that be will multiple number 3 and 5 while each result of that multiplication is still lower than parameter inputed
+
+solution (10) // => 23 = 3 + 5 + 6 + 9
+solution (20) // => 78 = 3 + 5 + 6 + 9 + 10 + 12 + 15 + 18
+
+
+
+5. Nearest Fibonacci
+Have the function to find nearest Fibonacci numbers, that the parameter is array.
+Example Input: 
+arr = [15,1,3]
+then your program expected to made output = 2
+
+Why Output is 2?
+
+Because by the above input example [15,1,3], if we add up them it will 15+1+3 = 19, and the nearest fibonacci of 19 is 21, so we need to add 2 then it can be 21. So, the correct answer is 2.
+
+
+
+6. Reverse Words
+Create a function that receive input and will give output:
+
+Reverse each word of these:
+
+"I am A Great human"
+into
+"I ma A Taerg namuh"
+
+// note: observe the Capital word behavior. Capital only when in the first letter
+
+
+
+7. Find Middle Alphabet
+Given variable string contains of all alphabet from A to Z
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+Build a function that receive two paramters: first letter and last letter.
+That will do to find middle letter between of the specified letter.
+Example: 
+
+- The middle between Q and U is S
+- The middle between R and U is ST
+- The middle between T and Z is W
+- The middle between Q and Z is UV
