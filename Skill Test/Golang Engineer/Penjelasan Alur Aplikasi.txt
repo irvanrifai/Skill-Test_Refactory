@@ -8,4 +8,11 @@ Menjalankan program login dengan provider Google:
 6. Masuk ke halaman success setelah login berhasil
 7. Ditampilkan data akun yang sedang login berupa ID user, Email, dan Nama user
 
-B. Penjelasan sistem
+B. Penjelasan sistem(mengacu pada file main.go)
+1. import beberapa library untuk membantu proses oauth2
+2. membuat function main yang didalamnya :
+a. menginisiasi untuk session yang dipakai login
+b. menginisiasi provider google dengan memasukan (client ID, client Secret, Link Authorize pada Google API yg telah dibuat sebelumnya)
+c. menginisiasi untuk kondisi jika user auth eror maka dikembalikan nilai erornya, jika berhasil maka masuk ke halaman success.html, dan menampilkan informasi user yang login
+d. menginisiasi localhost:3000 sebagai alamat yang dipakai(server-side), aktif setelah file main.go dijalankan.
+ketika localhost:3000 dijalankan langsung masuk ke halaman index.html
