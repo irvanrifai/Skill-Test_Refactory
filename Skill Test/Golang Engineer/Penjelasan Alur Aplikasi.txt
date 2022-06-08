@@ -1,3 +1,4 @@
+A. Penjelasan sisi user
 Menjalankan program login dengan provider Google:
 1. jalankan file main.go di terminal dengan cara "go run main.go"
 2. aprrove atau setujui jika ada permintaan akses internet
@@ -6,3 +7,5 @@ Menjalankan program login dengan provider Google:
 5. Masukkan gmail dan password jika diminta atau jika sudah login langsung bisa klik akun dipilih
 6. Masuk ke halaman success setelah login berhasil
 7. Ditampilkan data akun yang sedang login berupa ID user, Email, dan Nama user
+
+B. Penjelasan sistem
