@@ -18,7 +18,7 @@ import (
 
 func main() {
   
-  key := "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"  // Replace with your SESSION_SECRET or similar
+  key := "Secret-session-key"  // Replace with your SESSION_SECRET or similar
   maxAge := 86400 * 30  // 30 days
   isProd := false       // Set to true when serving over https
 
@@ -31,7 +31,7 @@ func main() {
   gothic.Store = store
 
   goth.UseProviders(
-    google.New("our-google-client-id", "our-google-client-secret", "http://localhost:3000/auth/google/callback", "email", "profile"),
+    google.New("230340066675-01ueh1o8hmbnmp0rm94qmp0bpg09ie42.apps.googleusercontent.com", "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", "http://localhost:3000/auth/google/callback", "email", "profile"),
   )
 
   p := pat.New()
