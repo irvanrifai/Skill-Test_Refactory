@@ -16,3 +16,16 @@ Pilih salah satu
 - Buat endpoint untuk get data informasi user yang login dari google atau facebook.
 - Setelah semua aplikasi selesai, buat diagram database, schema database dan penjelasan alur aplikasi.
 - Akan ada nilai plus jika aplikasi ini di dockerize dan implement CI/CD (Optional).
+
+
+
+
+
+
+
+
+Client ID
+230340066675-01ueh1o8hmbnmp0rm94qmp0bpg09ie42.apps.googleusercontent.com
+
+Client Secret
+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

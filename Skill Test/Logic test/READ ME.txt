@@ -1,0 +1,9 @@
+1. Program dijalankan dengan membuka file index.html
+2. Edit file index.html pada baris kode "script src", ubah disesuaiakan dengan javascript yang akan
+dijalankan
+3. Ubah src, misal <srcript src="reverse_words.js">
+4. Setelah index.html dijalankan, masuk ke inspect 
+5. Kemudian masuk ke console untuk running program dengan cara memanggil function
+6. Function dapat dilihat di file javascript masing-masing
+7. Nb:terdapat file javascript yang menampilkan output pada console, ada yang menampilkan langsung
+dari website setelah di run.
